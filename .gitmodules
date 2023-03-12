@@ -1,0 +1,3 @@
+[submodule "openapi"]
+	path = openapi
+	url = org-856813@github.com:stripe/openapi.git
