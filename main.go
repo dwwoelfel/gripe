@@ -1031,7 +1031,6 @@ func main() {
 	var addr string
 	if os.Getenv("ENV") == "production" {
 		addr = fmt.Sprintf(":%s", port)
-
 	} else {
 		addr = fmt.Sprintf("127.0.0.1:%s", port)
 	}
